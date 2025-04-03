@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuxall 3ds Markazi</title>
+    <style>
+        /* Bosh sahifa dizayni */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('D:\yuxall.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color:  #6A0DAD;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6A0DAD;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Saytga kirish linki uchun stil */
+        #access a {
+            color: #0044cc;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        /* Responsive dizayn */
+        @media screen and (max-width: 600px) {
+            header nav ul {
+                text-align: center;
+            }
+
+            header nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbarda -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Biz haqimizda</a></li>
+                <li><a href="#courses">Kurslar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bosh sahifa -->
+    <section id="home">
+        <h1>O'quv Markaziga Xush Kelibsiz!</h1>
+        <p>Bizning markazda sizga yuqori sifatli ta'lim xizmatlari taqdim etiladi.</p>
+    </section>
+
+    <!-- Biz haqimizda -->
+    <section id="about">
+        <h2>Kurslarimiz haqida</h2>
+        <p>Kursimiz davomiyligi-6oy...</p>
+    </section>
+
+    <!-- Kurslar -->
+    <section id="courses">
+        <h2>Bizning Kurslarimiz</h2>
+        <ul>
+            <li>Kurs 1: 3ds modelling</li>
+            <li>Kurs 2: Textures and rendering</li>
+            <li>Kurs 3: Onlayn amaliyot</li>
+        </ul>
+    </section>
+
+    <!-- Aloqa -->
+    <section id="contact">
+        <h2>Aloqa</h2>
+        <p>Telefon: +998 999 111 425</p>
+        <p>Email: info@yuxall3dmarkazi.uz</p>
+        <form>
+            <label for="name">O'zingiz haqingizdagi ma'lumot:</label>
+            <input type="text" id="name" name="name">
+            <label for="message">Xabar:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Yuborish</button>
+        </form>
+    </section>
+
+    <!-- Saytga kirish linki -->
+    <section id="access">
+        <h2>Saytga Kirish</h2>
+        <p>Bizning o'quv markazimizga kirish uchun quyidagi linkdan foydalaning:</p>
+        <a href="https://www.oquvmarkazi.uz" target="_blank">Saytga kirish</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 O'quv Markazi. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
